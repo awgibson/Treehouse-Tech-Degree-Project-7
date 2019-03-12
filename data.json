@@ -2,110 +2,106 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "A Random Quote Generator",
-            "description": "An app that displays random famous quotes each time a button is clicked",
+            "project_name": "Random Quote Generator",
+            "description": "An app that displays random quotes each time a button is clicked",
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://roypoe.github.io/treehouse-project-1/",
-            "github_link": "https://github.com/Roypoe/treehouse-project-1.git",
+            "live_link": "https://awgibson.github.io/Treehouse-Tech-Degree-Project-1/",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-1",
             "image_urls": [
-                "/images/p1_square.png",
-                "/images/p1_long1.png",
-                "/images/p1_long2.png"
+                "/images/project0/landing.png",
+                "/images/project0/project_1.png",
+                "/images/project0/project_2.png"
             ]
         },
         {
             "id": 1,
-            "project_name": "List Pagination and Filtering",
-            "description": " Adding pagination and filtering to a list using plain JS",
+            "project_name": "Pagination and Content Filtering",
+            "description": "Added pagination and search as you type to a list of people",
             "technologies": [
                 "JavaScript",
                 "HTML",
                 "CSS"
             ],
-            "live_link": "https://roypoe.github.io/treehouse-project-2/",
-            "github_link": "https://github.com/Roypoe/treehouse-project-2.git",
+            "live_link": "https://awgibson.github.io/Treehouse-Tech-Degree-Project-2/",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-2",
             "image_urls": [
-                "/images/p2_square.png",
-                "/images/p2_long1.png",
-                "/images/p2_long2.png"
+                "/images/project1/landing.png",
+                "/images/project1/project_1.png",
+                "/images/project1/project_2.png"
             ]
         },
         {
             "id": 2,
-            "project_name": "Interactive Form",
-            "description": "Adding form validation and interactivity to a web form",
+            "project_name": "Build an Interactive Form",
+            "description": "Added validation and interactivity enhancements to a form",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "jQuery"
+                "CSS"
             ],
-            "live_link": "https://roypoe.github.io/treehouse-project-3/",
-            "github_link": "https://github.com/Roypoe/treehouse-project-3.git",
+            "live_link": "https://awgibson.github.io/Treehouse-Tech-Degree-Project-3/",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-3",
             "image_urls": [
-                "/images/p3_square.png",
-                "/images/p3_long1.png",
-                "/images/p3_long2.png"
+                "/images/project2/landing.png",
+                "/images/project2/project_1.png",
+                "/images/project2/project_2.png"
             ]
         },
         {
             "id": 3,
-            "project_name": "OOP Game Show App",
-            "description": "A browser based game called 'Phrase Hunter'",
+            "project_name": "Tic-Tac-Toe",
+            "description": "Browser based Tic-Tac-Toe with multiplayer versus a person or computer",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "jQuery",
-                "OOP"
+                "CSS"
             ],
-            "live_link": "https://roypoe.github.io/treehouse-project-4/",
-            "github_link": "https://github.com/Roypoe/treehouse-project-4.git",
+            "live_link": "https://awgibson.github.io/Treehouse-Tech-Degree-Project-4/",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-4",
             "image_urls": [
-                "/images/p4_square.png",
-                "/images/p4_long1.png",
-                "/images/p4_long2.png"
+                "/images/project3/landing.png",
+                "/images/project3/project_1.png",
+                "/images/project3/project_2.png"
             ]
         },
         {
             "id": 4,
-            "project_name": "Public API Requests",
-            "description": "An app that displays random employees by requesting a JSON object from a public API",
+            "project_name": "Use a Public API to Create an Employee Directory",
+            "description": "An app that displays employees from a public API. Also includes a search as you type feature.",
             "technologies": [
                 "JavaScript",
                 "HTML",
-                "CSS",
-                "jQuery",
-                "Ajax"
+                "CSS"
             ],
-            "live_link": "https://roypoe.github.io/treehouse-project-5/",
-            "github_link": "https://github.com/Roypoe/treehouse-project-5.git",
+            "live_link": "https://awgibson.github.io/Treehouse-Tech-Degree-Project-5/",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-5",
             "image_urls": [
-                "/images/p5_square.png",
-                "/images/p5_long1.png",
-                "/images/p5_long2.png"
+                "/images/project4/landing.png",
+                "/images/project4/project_1.png",
+                "/images/project4/project_2.png"
             ]
         },
         {
             "id": 5,
-            "project_name": "AVALA",
-            "description": "An App that facilitates course management",
+            "project_name": "Build a Content Scraper",
+            "description": "Node.js console based app that scrapes T-Shirt information off of a website and generates a CSV file.",
             "technologies": [
                 "JavaScript",
-                "HTML",
-                "CSS",
-                "jQuery"
+                "node.js",
+                "cheerio",
+                "csv-writer",
+                "request"
             ],
-            "live_link": "https://avala-app.com",
-            "github_link": "",
+            "live_link": "",
+            "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-6",
             "image_urls": [
-                "/images/pAvala_square.png",
-                "/images/pAvala_long1.png",
-                "/images/pAvala_long2.png"
+                "/images/project5/landing.png",
+                "/images/project5/project_1.png",
+                "/images/project5/project_2.png"
             ]
         }
     ]
