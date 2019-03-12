@@ -31,7 +31,8 @@
             "image_urls": [
                 "/static/images/project1/landing.png",
                 "/static/images/project1/project_1.png",
-                "/static/images/project1/project_2.png"
+                "/static/images/project1/project_2.png",
+                "/static/images/project1/project_3.png"
             ]
         },
         {
@@ -48,7 +49,8 @@
             "image_urls": [
                 "/static/images/project2/landing.png",
                 "/static/images/project2/project_1.png",
-                "/static/images/project2/project_2.png"
+                "/static/images/project2/project_2.png",
+                "/static/images/project2/project_3.png"
             ]
         },
         {
@@ -65,7 +67,8 @@
             "image_urls": [
                 "/static/images/project3/landing.png",
                 "/static/images/project3/project_1.png",
-                "/static/images/project3/project_2.png"
+                "/static/images/project3/project_2.png",
+                "/static/images/project3/project_3.png"
             ]
         },
         {
@@ -82,7 +85,8 @@
             "image_urls": [
                 "/static/images/project4/landing.png",
                 "/static/images/project4/project_1.png",
-                "/static/images/project4/project_2.png"
+                "/static/images/project4/project_2.png",
+                "/static/images/project4/project_3.png"
             ]
         },
         {
@@ -100,8 +104,7 @@
             "github_link": "https://github.com/awgibson/Treehouse-Tech-Degree-Project-6",
             "image_urls": [
                 "/static/images/project5/landing.png",
-                "/static/images/project5/project_1.png",
-                "/static/images/project5/project_2.png"
+                "/static/images/project5/project_1.png"
             ]
         }
     ]

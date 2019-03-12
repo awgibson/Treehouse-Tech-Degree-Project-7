@@ -1,5 +1,6 @@
 const express = require('express');
 const port = 5000;
+const { projects } = require('./data.json');
 
 const app = express();
 
@@ -14,7 +15,18 @@ app.set('view engine', 'pug');
 
 //Route for the root
 app.get('/', (req, res) => {
-    res.send('Hello');
+    res.render('index');
+});
+
+//Route for the about page
+app.get('/about', (req, res) => {
+    res.render('about');
+});
+
+//Route for the root
+app.get('/project:id', (req, res) => {
+    const { id } = req.params;
+    res.send(`Project ${id}`);
 });
 
 //Server
