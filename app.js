@@ -7,7 +7,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 
 //Set the static route
-app.use(express.static('public'));
+app.use('/static', express.static('public'));
 
 //Set pug as the view engine
 app.set('view engine', 'pug');
