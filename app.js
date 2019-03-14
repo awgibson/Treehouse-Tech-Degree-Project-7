@@ -23,7 +23,7 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//Route for the root
+//Route for the projects
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
     const project = projects[id];
