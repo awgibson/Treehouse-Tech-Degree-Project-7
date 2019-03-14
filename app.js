@@ -15,7 +15,7 @@ app.set('view engine', 'pug');
 
 //Route for the root
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { projects });
 });
 
 //Route for the about page
@@ -24,9 +24,10 @@ app.get('/about', (req, res) => {
 });
 
 //Route for the root
-app.get('/project:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const { id } = req.params;
-    res.send(`Project ${id}`);
+    const project = projects[id];
+    res.render('project', { project });
 });
 
 //Server
