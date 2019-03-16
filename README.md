@@ -14,27 +14,29 @@ I have completed all of the exceeds expectations requirements.
     2. error.status (I use error.statusCode)
     3. error.stack
 4. Project has been customized. All changes are done in style.css starting on line 152.
-    ```body{
-  background-color:#d8e7ff;
-}
+    ```css
+    body {
+        background-color:#d8e7ff;
+    }
 
-h1, h5, h6 {
-  text-shadow: .75px .75px grey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    h1, h5, h6 {
+        text-shadow: .75px .75px grey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }   
 
-.thumbnail, .image {
-  box-shadow: 2px 2px grey;
-}
+    .thumbnail, .image {
+        box-shadow: 2px 2px grey;
+    }
 
-.error-message{
-  font-style: italic;
-  color: #000000;
-}
+    .error-message{
+        font-style: italic;
+        color: #000000;
+    }
 
-.error-stack {
-  font: .7rem Inconsolata, monospace;
-  background-color: lightgray;
-  padding: 25px;
-}```
+    .error-stack {
+        font: .7rem Inconsolata, monospace;
+        background-color: lightgray;
+        padding: 25px;
+    }
+```
 5. Changes detailed in the README.md file and the submission notes.
