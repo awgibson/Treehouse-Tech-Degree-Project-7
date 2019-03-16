@@ -1,7 +1,15 @@
 extends layout.pug
 
 block content
-    h1= err.statusCode + ' ERROR.'
-    p= err.message
-    br
-    p= err.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    article.grid-container.portfolio-intro.portfolio-project
+        .grid-x
+        .cell.small-6.medium-9.large-9
+            h1= err.statusCode + ' ERROR.'
+            p.text-light.error-message
+                | #{err.message}
+            .portfolio-bio
+            p.text-light.error-stack= err.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back

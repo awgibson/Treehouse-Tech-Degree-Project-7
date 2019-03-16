@@ -148,3 +148,28 @@ a:hover{
 .portfolio-bio{
     line-height: 25px;
 }
+
+/* Exceeds added CSS */
+body{
+  background-color:#d8e7ff;
+}
+
+h1, h5, h6 {
+  text-shadow: .75px .75px grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thumbnail, .image {
+  box-shadow: 2px 2px grey;
+}
+
+.error-message{
+  font-style: italic;
+  color: #000000;
+}
+
+.error-stack {
+  font: .7rem Inconsolata, monospace;
+  background-color: lightgray;
+  padding: 25px;
+}
