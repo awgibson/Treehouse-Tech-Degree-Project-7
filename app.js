@@ -24,11 +24,35 @@ app.get('/about', (req, res) => {
 });
 
 //Route for the projects
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     const { id } = req.params;
     const project = projects[id];
-    res.render('project', { project });
+
+    if (id < projects.length) {
+        res.render('project', { project });
+    } else {
+        next();
+    }
 });
+
+app.get('*', function (req, res, next) {
+    const err = new Error(`Page requested at '${req.protocol}://${req.get('host')}${req.originalUrl}' does not exist.`);
+    err.statusCode = 404;
+    next(err);
+});
+
+app.use(function (err, req, res, next) {
+    console.error(err.message); // Log error message in our server's console
+    if (!err.statusCode) err.statusCode = 500; // If err has no specified error code, set error code to 'Internal Server Error (500)'
+    // res.status(err.statusCode).send(err.message); // All HTTP requests must have a response, so let's send back an error with its status code and message
+
+    res.render('error', { err });
+
+});
+
+
+
+
 
 //Server
 app.listen(port, () => {
