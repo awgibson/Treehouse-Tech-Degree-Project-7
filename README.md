@@ -1,10 +1,10 @@
 # Tech Degree Project 7
 # A Static Node.js and Express Site
 
-#Purpose
+## Purpose
 Create a project portfolio using Node.js, Express, JavaScript, and PUG templating.
 
-#Exceeds Expectations Requirements
+## Exceeds Expectations Requirements
 I have completed all of the exceeds expectations requirements.
 
 1. Running npm start serves the app.
