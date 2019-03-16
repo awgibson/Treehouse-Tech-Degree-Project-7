@@ -19,6 +19,8 @@ block content
           a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
         if project.github_link
           a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
+          //- Each iterator that pulls all images in the img_urls array except for postion 0 since this is the
+          //- thumbnail. No hardcoding of total project images.
     each image, i in project.image_urls
       if i != 0
         img.image(src=`${project.image_urls[i]}`)

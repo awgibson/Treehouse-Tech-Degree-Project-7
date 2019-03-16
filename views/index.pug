@@ -9,10 +9,15 @@ block content
         | I have made while doing the Treehouse Fullstack Tech Degree program.
   article.grid-container.portfolio-index
     
-    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3            
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3   
       each image, i in projects
         .cell
           a.thumbnail-effect(href=`/project/${projects[i].id}`)
             img.thumbnail(src=`${projects[i].image_urls[0]}`)
             h5= projects[i].project_name
+
+
+            //- Used an each loop to generate the thumbnaisl dynamically. More can be added to the JSON file later
+            //- so this code will not have to be touched again. Put comment down here because the PUG template kept
+            //- breaking with the comments up higher.
       
