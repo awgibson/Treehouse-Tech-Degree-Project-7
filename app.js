@@ -4,7 +4,7 @@ const nofavicon = require('express-no-favicons');
 const { projects } = require('./data.json');
 
 //Set port
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 //Initialize express
 const app = express();
