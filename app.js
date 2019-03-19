@@ -59,7 +59,9 @@ app.use(function (err, req, res, next) {
         err.message = 'There was an internal server error requesting the resource.';
     } // If err has no specified error code, set error code to 'Internal Server Error (500)'
 
-    console.error(`${err.statusCode} error: ${err.message}`); // Log error message in our server's console
+    if (req.originalUrl !== '/favicon.ico') { //Prevents favicon requests from returning a console error since there isn't one
+        console.error(`${err.statusCode} error: ${err.message}`); // Log error message in our server's console
+    }
 
     res.render('error', { err }); //render the error template and pass the error to it
 
